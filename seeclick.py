@@ -1,6 +1,7 @@
 import time, requests
 from requests.adapters import HTTPAdapter
 from urllib3.util.retry import Retry
+import json
 
 UA = {"User-Agent": "CivicAI-Student/1.0 (edu project)"}
 BASE = "https://seeclickfix.com/api/v2"
@@ -10,8 +11,9 @@ session = requests.Session()
 retries = Retry(total=3, backoff_factor=1, status_forcelist=(429, 500, 502, 503, 504))
 session.mount("https://", HTTPAdapter(max_retries=retries))
 
-def find_place_slug(lat, lng):
-    r = requests.get(f"{BASE}/places", params={"lat": lat, "lng": lng}, headers=UA, timeout=15)
+def find_response_site(lat, lng):
+    r = requests.get(f"{BASE}/places", params={"lat": lat, "lng": lng}, 
+                     headers=UA, timeout=15)
     r.raise_for_status()
     places = r.json().get("places", [])
     return places if places else None
@@ -34,6 +36,9 @@ def fetch_issues(place_url, status="open", per_page=50, max_pages=5):
         if not issues: break
         all_issues.extend(issues)
         time.sleep(3)  # be polite (~20 req/min public limit)
+
+        with open("city_issues.json", "w", encoding="utf-8") as f:
+            json.dump(issues, f, ensure_ascii=False, indent=2)
     return all_issues
 
 def choose_best_place(places):
@@ -62,13 +67,13 @@ def choose_best_place(places):
 
 if __name__ == "__main__":
     lat, lng = 33.7701, -118.1937  # Long Beach downtown
-    slug = find_place_slug(lat, lng)
+    slug = find_response_site(lat, lng)
     for s in slug:
         print(s['url_name'])
     if not slug:
         raise SystemExit("No SeeClickFix coverage detected around that point.")
-    issues = fetch_issues([s["url_name"] for s in slug][0], status="open", per_page=50, max_pages=3)
+    spot = choose_best_place(slug)
+    issues = fetch_issues(spot['url_name'], status="open", per_page=50, max_pages=3)
     print(f"Place: {slug} | Open issues pulled: {len(issues)}")
     for i in issues[:10]:
         print(i.get("summary"), "—", i.get("address"), "|", i.get("status"))
-    

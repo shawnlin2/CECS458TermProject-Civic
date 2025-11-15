@@ -1,0 +1,102 @@
+[
+  {
+    "id": 2970540,
+    "status": "Open",
+    "summary": "two alley lights out",
+    "description": "Two alley lights out in the back of my building.  i am a single mother that don't feel comfortable or safe going to my car.  i took the number off of one light pole  B143488Y, the second out is one down.  please assist",
+    "rating": 1,
+    "lat": 33.7996552,
+    "lng": -118.179327,
+    "address": "2352 Lewis Ave  Signal Hill, California",
+    "created_at": "2016-10-05T14:55:39-04:00",
+    "acknowledged_at": null,
+    "closed_at": null,
+    "reopened_at": null,
+    "updated_at": "2016-10-05T14:55:39-04:00",
+    "url": "https://seeclickfix.com/api/v2/issues/2970540",
+    "point": {
+      "type": "Point",
+      "coordinates": [
+        -118.179327,
+        33.7996552
+      ]
+    },
+    "private_visibility": false,
+    "html_url": "https://seeclickfix.com/issues/2970540",
+    "show_blocked_issue_text": false,
+    "request_type": {},
+    "comment_url": "https://seeclickfix.com/api/v2/issues/2970540/comments",
+    "flag_url": "https://seeclickfix.com/api/v2/issues/2970540/flag",
+    "transitions": {
+      "close_url": "https://seeclickfix.com/api/v2/issues/2970540/close"
+    },
+    "reporter": {
+      "id": 1377886,
+      "name": "charlene",
+      "role": "Registered User",
+      "avatar": {
+        "full": "https://seeclickfix.com/assets/no-avatar-100-609149880925b3d896d051d3983092f419737fc85ab3d559f22996eda23c1ac7.png",
+        "square_100x100": "https://seeclickfix.com/assets/no-avatar-100-609149880925b3d896d051d3983092f419737fc85ab3d559f22996eda23c1ac7.png"
+      },
+      "html_url": "https://seeclickfix.com/users/1377886",
+      "witty_title": "",
+      "civic_points": 0
+    },
+    "media": {
+      "video_url": null,
+      "image_full": null,
+      "image_square_100x100": null,
+      "representative_image_url": "https://seeclickfix.com/assets/categories_trans/no-image-3afd5fe0adb47a63f5b051604db11d882955257f2b16ddde9e931b0a065ae59f.png"
+    }
+  },
+  {
+    "id": 1647858,
+    "status": "Open",
+    "summary": "Tagging",
+    "description": "Black marking on bench Sunset view park, lowest bench on trail.",
+    "rating": 1,
+    "lat": 33.79853057861328,
+    "lng": -118.1635589599609,
+    "address": "201 Hill Street Signal Hill, CA 90755, USA",
+    "created_at": "2015-05-13T19:49:56-04:00",
+    "acknowledged_at": null,
+    "closed_at": null,
+    "reopened_at": null,
+    "updated_at": "2020-08-11T16:58:34-04:00",
+    "url": "https://seeclickfix.com/api/v2/issues/1647858",
+    "point": {
+      "type": "Point",
+      "coordinates": [
+        -118.1635589599609,
+        33.79853057861328
+      ]
+    },
+    "private_visibility": false,
+    "html_url": "https://seeclickfix.com/issues/1647858",
+    "show_blocked_issue_text": false,
+    "request_type": {},
+    "comment_url": "https://seeclickfix.com/api/v2/issues/1647858/comments",
+    "flag_url": "https://seeclickfix.com/api/v2/issues/1647858/flag",
+    "transitions": {
+      "close_url": "https://seeclickfix.com/api/v2/issues/1647858/close"
+    },
+    "reporter": {
+      "id": 124661,
+      "name": "Ingrid H",
+      "role": "Registered User",
+      "avatar": {
+        "full": "https://seeclickfix.com/assets/no-avatar-100-609149880925b3d896d051d3983092f419737fc85ab3d559f22996eda23c1ac7.png",
+        "square_100x100": "https://seeclickfix.com/assets/no-avatar-100-609149880925b3d896d051d3983092f419737fc85ab3d559f22996eda23c1ac7.png"
+      },
+      "html_url": "https://seeclickfix.com/users/124661",
+      "witty_title": "",
+      "civic_points": 0
+    },
+    "media": {
+      "video_url": null,
+      "image_full": "https://seeclickfix.com/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTI3ODgzNywicHVyIjoiYmxvYl9pZCJ9fQ==--718b36c56e1f13904b70cfacc851ff8477744389/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJqcGciLCJhdXRvX29yaWVudCI6dHJ1ZSwic3RyaXAiOnRydWUsInJlc2l6ZSI6IjgwMHg2MDAifSwicHVyIjoidmFyaWF0aW9uIn19--242b3e94addeeae50b5fd8df8a0a8fbcf02bf33c/1431560989171.jpg",
+      "image_square_100x100": "https://seeclickfix.com/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTI3ODgzNywicHVyIjoiYmxvYl9pZCJ9fQ==--718b36c56e1f13904b70cfacc851ff8477744389/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJqcGciLCJhdXRvX29yaWVudCI6dHJ1ZSwic3RyaXAiOnRydWUsInJlc2l6ZSI6IjEwMHgxMDBeIiwiZ3Jhdml0eSI6ImNlbnRlciIsImV4dGVudCI6IjEwMHgxMDAifSwicHVyIjoidmFyaWF0aW9uIn19--65761edc0e4051a20b5d81cec2bec201d6c43dee/1431560989171.jpg",
+      "representative_image_url": "https://seeclickfix.com/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTI3ODgzNywicHVyIjoiYmxvYl9pZCJ9fQ==--718b36c56e1f13904b70cfacc851ff8477744389/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJqcGciLCJhdXRvX29yaWVudCI6dHJ1ZSwic3RyaXAiOnRydWUsInJlc2l6ZSI6IjEwMHgxMDBeIiwiZ3Jhdml0eSI6ImNlbnRlciIsImV4dGVudCI6IjEwMHgxMDAifSwicHVyIjoidmFyaWF0aW9uIn19--65761edc0e4051a20b5d81cec2bec201d6c43dee/1431560989171.jpg"
+    }
+  }
+]
