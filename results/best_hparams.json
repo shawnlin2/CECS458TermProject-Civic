@@ -1,0 +1,12 @@
+{
+  "backbone": "resnet50",
+  "fine_tune": true,
+  "num_dense_layers": 1,
+  "dense_units_0": 320,
+  "activation_0": "relu",
+  "dropout_0": 0.1,
+  "lr": 5.375488064118343e-05,
+  "dense_units_1": 512,
+  "activation_1": "gelu",
+  "dropout_1": 0.2
+}

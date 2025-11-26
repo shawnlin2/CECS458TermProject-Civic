@@ -1,0 +1,13 @@
+{
+  "summary": "pothole",
+  "description": "Auto-generated draft report for 'pothole' near (33.7701, -118.1937).",
+  "address": null,
+  "lat": 33.7701,
+  "lng": -118.1937,
+  "tags": [
+    "pothole"
+  ],
+  "severity": "medium",
+  "reporter_name": "auto-draft",
+  "status": "Draft"
+}
