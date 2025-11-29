@@ -221,4 +221,3 @@ service_dataset/
 # Model artifacts
 *.keras
 *.h5
-models/
